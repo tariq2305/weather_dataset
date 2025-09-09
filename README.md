@@ -1,10 +1,10 @@
 WEATHER  DATASET made with the help of python.
 
-Overview
+OVERVIEW 
 
 This repository contains a Python-based workflow for exploring, cleaning, analyzing, and visualizing a weather dataset. The project demonstrates a practical data analytics pipeline using pandas for data wrangling and plotly.express for interactive visualizations. Typical use cases include summarizing temperature, precipitation, humidity, and wind metrics, performing time series analysis, and generating insights for reporting or dashboards.
 
-Features
+FEATURES
 
 Data loading from CSV/Parquet with robust parsing of dates and numeric fields.
 
@@ -16,7 +16,7 @@ Interactive charts: line charts for trends, bar charts for comparisons, box plot
 
 Simple, reproducible scripts and notebook(s) for end-to-end execution.
 
-Project Structure
+PROJECT STRUCTURE
 
 data/: Raw and processed weather files (ignored or sampled as needed).
 
@@ -30,7 +30,7 @@ README.md: Project documentation and usage.
 
 requirements.txt or pyproject.toml: Dependencies.
 
-Getting Started
+GETTING STARTED
  
  Prerequisites
    
@@ -38,7 +38,7 @@ Getting Started
    
    Recommended: a virtual environment (venv or conda)
 
-Installation
+INSTALLATION
  
  Clone the repository.
  
@@ -48,7 +48,7 @@ Installation
  
  pip install pandas plotly
 
-Data
+DATA
  
  The project expects a tabular weather dataset with columns such as:
  
